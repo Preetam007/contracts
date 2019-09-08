@@ -6,6 +6,7 @@ contract ERC725 {
     uint256 constant ACTION_KEY = 2;
     uint256 constant CLAIM_SIGNER_KEY = 3;
     uint256 constant ENCRYPTION_KEY = 6;
+    uint256 constant ENCRYPTION_KEYT = 6;
 
     event KeyAdded(address indexed key, uint256 indexed keyType);
     event KeyRemoved(address indexed key, uint256 indexed keyType);
