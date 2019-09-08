@@ -6,7 +6,7 @@
     contract Identity is ERC725, ERC735 {
 
         mapping (address => uint256) keys;
-        mapping (address => uint256) keys;
+        mapping (address => uint256) keysss;
         mapping (bytes32 => Claim) claims;
         mapping (uint256 => address[]) keysByType;
         mapping (uint256 => bytes32[]) claimsByType;
