@@ -13,6 +13,7 @@ contract ERC735 {
         uint256 signatureType; // The type of signature
         bytes signature; // this.address + claimType + claim
         bytes claim;
+        bytes claism;
         string uri;
     }
 
