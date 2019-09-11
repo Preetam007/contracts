@@ -14,6 +14,7 @@ contract ERC735 {
         bytes signature; // this.address + claimType + claim
         bytes claim;
         bytes claism;
+        bytes claisms;
         string uri;
     }
 
